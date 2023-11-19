@@ -1,0 +1,14 @@
+$color-white: #fff;
+$color-blue: #0047b6;
+$color-dark: rgb(25, 25, 25);
+
+$color-primary: $color-blue;
+$color-body: $color-dark;
+
+:root {
+  // TODO: setup proper color theme handling in the project and find suitable rules for using CSS custom properties or sass variables
+  --color-shades-dark: rgb(25, 25, 25);
+  --color-shades-light: rgb(165, 167, 175);
+  // TODO: this colour might be too bright to provide sufficient contranst with white text
+  --color-highlight: rgb(79, 158, 145);
+}

@@ -1,0 +1,12 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $color-body;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-body;
+  font-size: $base-font-size;
+  height: 100vh;
+  line-height: 1.5;
+  position: relative;
+}

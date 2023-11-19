@@ -1,0 +1,18 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 4px solid var(--color-shades-dark);
+  outline-offset: 4px;
+}
